@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Day1",
-            "program": "${workspaceFolder}/tuer1/code.js",
+            "program": "${workspaceFolder}/day1/code.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
@@ -15,7 +15,7 @@
         },
         {
             "name": "Day2",
-            "program": "${workspaceFolder}/tuer2/code.js",
+            "program": "${workspaceFolder}/day2/code.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
@@ -24,7 +24,7 @@
         },
         {
             "name": "Day3",
-            "program": "${workspaceFolder}/tuer3/code.js",
+            "program": "${workspaceFolder}/day3/code.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
@@ -33,7 +33,16 @@
         },
         {
             "name": "Day4",
-            "program": "${workspaceFolder}/tuer4/code.js",
+            "program": "${workspaceFolder}/day4/code.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Day5",
+            "program": "${workspaceFolder}/day5/code.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
